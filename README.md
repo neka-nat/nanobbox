@@ -27,3 +27,11 @@ overlaps = bbox_overlaps(
     np.ascontiguousarray(gt, dtype=np.float32)
 )
 ```
+
+## Benchmark
+
+|              | time        |
+|--------------|-------------|
+| cython_bbox  | 0.87s       |
+| nanobbox     | **0.77s**   |
+| nanobbox(omp)| **0.22s**   |
