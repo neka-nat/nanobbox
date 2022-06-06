@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "nanobbox"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["nekanat <nekanat.stock@gmail.com>"]
 license = "MIT"
+include = ["src/nanobbox_ext.cpp"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
