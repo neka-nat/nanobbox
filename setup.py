@@ -12,7 +12,7 @@ except ImportError:
 
 setup(
     name="nanobbox",
-    version="0.0.1",
+    version="0.3.0",
     author="neka-nat",
     author_email="nekanat.stock@gmail.com",
     description="A bbox project that compiles bindings using nanobind and scikit-build",

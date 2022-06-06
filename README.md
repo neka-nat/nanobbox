@@ -7,6 +7,12 @@ Speedup is achieved by using nanobind and openmp.
 ## Installation
 
 ```
+pip install nanobbox
+```
+
+or
+
+```
 git clone https://github.com/neka-nat/nanobbox.git
 cd nanobbox
 pip install -e .
