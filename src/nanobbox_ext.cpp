@@ -38,7 +38,7 @@ NB_MODULE(nanobbox_ext, m) {
           "boxes: (N, 4) ndarray of float\n"
           "query_boxes: (K, 4) ndarray of float\n"
           "Returns\n"
-          "-------"
+          "-------\n"
           "overlaps: (N, K) ndarray of overlap between boxes and query_boxes"),
           "boxes"_a, "query_boxes"_a);
 }
